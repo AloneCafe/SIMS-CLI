@@ -1,0 +1,6 @@
+all:
+	copy students.dat.example .\build\students.dat
+	gcc -Wall -o .\build\sims.exe sims.c
+clean:
+	del .\build\sims.exe
+	del .\build\students.dat
