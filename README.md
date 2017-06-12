@@ -22,10 +22,9 @@
 * 使用MinGW make自动构建：
   **<p><code>mingw32-make -f Makefile.win</code></p>**
 * 使用MinGW GCC手动编译构建：
-  **<p><code>mkdir buildh</code></p>**
-  **<p><code>gcc -o .\build\sims.exe wms.c</code></p>**
+  **<p><code>gcc -o .\build\sims.exe sims.c</code></p>**
   **<p><code>copy students.dat.example .\build\students.dat</code></p>**
 
 ## 关于数据文件
-**所有员工的数据是以文本文件的形式保存在与程序同目录下的employee.dat文件中，以简单的明文形式存储**
+**所有学生的数据是以一行一行的记录的形式，使用ASCII文本保存在与程序同目录下的employee.dat文件中，以简单的明文形式存储**
 ![sims_data](https://github.com/longyanyu-cs/SIMS-CLI/raw/master/screenshots/students_data.png)
