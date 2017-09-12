@@ -5,14 +5,14 @@
 **这是一个Very Very Stupid的基于CLI和ASCII数据文件的学生信息管理系统演示程序（SIMS Demo，Students Information Management System Demo）（目前仅支持Windows操作系统）**
 
 ---
-![sims](https://github.com/longyanyu-cs/SIMS-CLI/raw/master/screenshots/sims.png)
-![sims](https://github.com/longyanyu-cs/SIMS-CLI/raw/master/screenshots/help.png)
+![sims](https://github.com/yenyuloong/SIMS-CLI/raw/master/screenshots/sims.png)
+![sims](https://github.com/yenyuloong/SIMS-CLI/raw/master/screenshots/help.png)
 ## 获取源代码
 ### Git版本控制工具：
-* **<code>git clone https://github.com/longyanyu-cs/SIMS-CLI.git</code>**
+* **<code>git clone https://github.com/yenyuloong/SIMS-CLI.git</code>**
 
 ### 下载zip压缩包：
-* **<a href="https://github.com/longyanyu-cs/SIMS-CLI/archive/master.zip">项目ZIP压缩包</a>**
+* **<a href="https://github.com/yenyuloong/SIMS-CLI/archive/master.zip">项目ZIP压缩包</a>**
 
 ---
 
@@ -27,4 +27,4 @@
 
 ## 关于数据文件
 **所有学生的数据是以一行一行的记录的形式，使用ASCII文本保存在与程序同目录下的students.dat文件中，以简单的明文形式存储**
-![sims_data](https://github.com/longyanyu-cs/SIMS-CLI/raw/master/screenshots/students_data.png)
+![sims_data](https://github.com/yenyuloong/SIMS-CLI/raw/master/screenshots/students_data.png)
