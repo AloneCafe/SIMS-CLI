@@ -481,11 +481,15 @@ void sort_mod()
 		}
 	}
 
-	do{
-		printf("请选择排序方式：[A]:升序 / [D]:降序\n");
-		sort = getch();
-		putchar('\n');
-	}while(sort != 'A' && sort != 'a' && sort != 'D' && sort != 'd');
+	printf("请选择排序方式：[A]:升序 (默认) / [D]:降序\n");
+	sort = getch();
+	
+	if(sort != 'A' && sort != 'a' && sort != 'D' && sort != 'd')
+	{
+		sort = 'A';
+	}
+	
+	putchar('\n');
 	
 	printf("--------------------------------\n");
 	printf("学号\t姓名\t年龄\t性别\t出生年月\t地址\t电话\tEmail\n");
