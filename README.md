@@ -27,4 +27,4 @@
 
 ## 关于数据文件
 **所有学生的数据是以一行一行的记录的形式，使用ASCII文本保存在与程序同目录下的students.dat文件中，以简单的明文形式存储**
-![sims_data](https://github.com/AloneCafe/SIMS-CLI/raw/master/screenshots/students_data.png)
+~~为保护他人隐私，已移除可能涉及个人信息的图片~~
